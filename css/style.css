@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color:#757575
+}
+
+  /* shared style */
+  .text-dark-50 {
+    color: #474747;
+  }
+  .text-dark {
+    color: #181818;
+  }
+  .text-primary {
+    color:#FD6E0A
+  }
+  .btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 18px 27px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    border: 1px solid transparent;
+  }
+  .btn-outline {
+    background: transparent;
+    border-color: #FD6E0A;
+    color:#FD6E0A
+  }
+
+  /* header style */
+  header {
+    background: rgb(255, 248, 243);
+    background-image: url(../image/Developer.png), url(../image/Group\ 12.png);
+    background-repeat: no-repeat;
+    background-position: left top, bottom right;
+  }
+
+  .navbar {
+   max-width: 1140px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 50px;
+}
+
+  header .navbar h2 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+}
+
+  header .navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+header .navbar ul li {
+    list-style: none;
+}
+
+header .navbar ul li a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/* banner styles */
+ .banner {
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+ }
+
+ .banner-content {
+
+
+ }
+ .banner-content h3 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+}
+ .banner-content h4 {
+font-size: 85px;
+font-weight: 700;
+line-height: 116px;
+margin-bottom: 20px;
+ }
+ .banner-content p {
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+margin-bottom: 30px;
+ }
+ .banner-content .btn-container {
+    display: flex;
+    gap: 30px;
+    
+ }
+ .banner-image img {
+    position: sticky;
+    width: 584px;
+    left: 978px;
+    right: 38px;
+    top: 161px;
+    bottom: 3419px;
+ }
